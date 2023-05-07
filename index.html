@@ -1,0 +1,3489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="shortcut icon" href="imgs/online-store-shopping-cart.png">
+
+    <!--====fontawesome==============-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!--===Aos======================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!--====bootstrap================-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--====css style================-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Home Page-->
+
+    <!--===navbar=============================-->
+    <div class="container-fluid px-5 mb-1 shadow-lg sticky-top" id="scr-link"
+        style="height:100px;background: rgb(131,58,180);background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.36738445378151263) 50%, rgba(252,176,69,1) 100%);">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="imgs/elec-logo.png" class="" width="150" height="100" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-align-right" style="font-size: 25px;"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-auto shadow-lg p-1">
+                    <li class="nav-item mx-1 bg-dark rounded hov-nav">
+                        <a class="nav-link text-white font-weight-bold  a-hov" href="index.html">Home </a>
+
+                    </li>
+                    <li class="nav-item mx-1 ">
+                        <a class="nav-link text-dark font-weight-bold a-hov" href="shop.html">SHOPPING</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-dark font-weight-bold a-hov" href="product-details.html">PRODUCT
+                            DETAILS</a>
+                    </li>
+                    <li class="nav-item mx-1 dr-menu-link">
+                        <a class="nav-link text-dark font-weight-bold a-hov " href="#">
+                            CATEOGRIES
+                            <ul class="dr-menu">
+                                <li><a href="shop.html">Mobiles</a></li>
+                                <li><a href="shop.html">Cameras</a></li>
+                                <li><a href="shop.html">Laptop</a></li>
+                                <li><a href="shop.html">Monitors</a></li>
+                            </ul>
+
+                        </a>
+                    </li>
+
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-dark font-weight-bold a-hov" href="#foot-about">ABOUT US</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav shadow-lg rounded p-1">
+                    <li class="nav-item mx-sm-3 mx-lg-0 ">
+                        <a class="nav-link  text-dark font-weight-bold a-hov" href="#">Login/</a>
+
+                    </li>
+                    <li class="nav-item mx-sm-3 mx-lg-0 ">
+                        <a class="nav-link  text-dark font-weight-bold a-hov" href="#">Register</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav mr-1 p-1 ">
+                    <li class="nav-item mx-sm-3 mx-lg-0">
+                        <a class="nav-link " href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="nav-item mx-sm-3 mx-lg-0">
+                        <a class="nav-link" href="#">
+                            <span data-cart-items="2">
+                                <i class="far fa-heart"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-sm-3 mx-lg-0">
+                        <a class="nav-link" href="shopping-cart.html">
+                            <span data-cart-items="2">
+                                <i class="fas fa-cart-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <!--===end navbar========================-->
+
+    <!--banner===============================-->
+    <div class="container-fluid" id="banner">
+        <div class="row">
+            <div class="col-12 col-md-6 ">
+                <div class="card text-white shadow-lg " data-aos="zoom-in-up" data-aos-duration="3000">
+                    <img src="imgs/collection/electronic-gadgets.jpeg" class="card-img q-img-card" height="600"
+                        alt="bg-1">
+                    <div class="card-img-overlay over-lay-ca text-center">
+                        <h5 class="card-title text-center">Electronics</h5>
+                        <p class="card-text text-secodary text-center">1200 Terms</p>
+                        <a href="shop.html"
+                            class="border-bottom p-2 btn btn-outline-warning text-dark font-weight-bold ">Shop
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 mt-2 mt-md-0">
+                <div class="card text-white shadow-lg" data-aos="zoom-in-up" data-aos-duration="3000">
+                    <img src="imgs/collection/ban-4.png" class="card-img q-img-card" height="600" alt="bg-1">
+                    <div class="card-img-overlay over-lay-ca text-center">
+                        <h5 class="card-title text-center">Electronics</h5>
+                        <p class="card-text text-secodary text-center">1200 Terms</p>
+                        <a href="shop.html"
+                            class="border-bottom p-2 btn btn-outline-warning text-dark font-weight-bold ">Shop
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--slider===============================-->
+    <div class="container-fluid mt-2 px-3">
+        <div class="row">
+            <div class="col-12 col-md-4 shadow" data-aos="zoom-in-up" data-aos-duration="2000">
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="imgs/slide-2/slide-4.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-5.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-6.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-8.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleFade"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+
+            <div class="col-12 col-md-4 shadow" data-aos="zoom-in-up" data-aos-duration="3000">
+
+                <div id="carouselExampleFade-2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="imgs/slide-2/slide-10.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-11.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-12.jpeg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-12.webp" class="d-block w-100" height="400" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade-2"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleFade-2"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+
+            <div class="col-12 col-md-4 shadow" data-aos="zoom-in-up" data-aos-duration="4000">
+
+                <div id="carouselExampleFade-3" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="imgs/slide-2/slide-22.png" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-23.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-25.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imgs/slide-2/slide-26.jpg" class="d-block w-100" height="400" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade-3"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleFade-3"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--==new product========================-->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-lg-3 text-md-center">
+                <h5 class=" newprod-h p-1">O</span>ur <span>Ne</span>w
+                    <span>Pr</span>oducts
+                </h5>
+            </div>
+
+            <div class="col-12 col-lg-9">
+
+
+
+                <ul class="nav justify-content-end d-md-inline-flex d-lg-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active q-link-nav-prod" id="pills-home-tab" data-toggle="pill"
+                            href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+
+                        <!-- <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a> -->
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link q-link-nav-prod" id="pills-profile-tab" data-toggle="pill"
+                            href="#pills-profile" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Mobiles</a>
+                        <!-- <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a> -->
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link q-link-nav-prod" id="pills-contact-tab" data-toggle="pill"
+                            href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Desktop
+                            Computers</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link q-link-nav-prod" id="pills-profile-tab4" data-toggle="pill"
+                            href="#pills-profile4" role="tab" aria-controls="pills-profile4"
+                            aria-selected="false">Laptops</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link q-link-nav-prod" id="pills-profile-tab5" data-toggle="pill"
+                            href="#pills-profile5" role="tab" aria-controls="pills-profile5"
+                            aria-selected="false">Monitors</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link q-link-nav-prod" id="pills-profile-tab6" data-toggle="pill"
+                            href="#pills-profile6" role="tab" aria-controls="pills-profile6"
+                            aria-selected="false">Accessories</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+        <!--row-->
+
+        <!--====Products Rows=======-->
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <!--firsr-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-1">
+
+                            <img src="imgs/elct/cams/1.png" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Cameras</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-2">
+
+                            <img src="imgs/elct/cam-2.png" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Cameras</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cam-2.png" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-3">
+
+                            <img src="imgs/elct/cams/cam-12.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Cameras</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-12.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-4">
+
+                            <img src="imgs/elct/cams/cam-10.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Cameras</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-10.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+
+                <!--second-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-5">
+
+                            <img src="imgs/elct/monitor/mon-1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+              Monitors</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-1.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-6">
+
+                            <img src="imgs/elct/monitor/mon-2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Monitors</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-2.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-7">
+
+                            <img src="imgs/elct/monitor/mon-3.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Monitors</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-3.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-8">
+
+                            <img src="imgs/elct/monitor/mon-5.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Monitors</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-5.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+
+                <!--third-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-9">
+
+                            <img src="imgs/elct/access/head-2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Handset</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/head-2.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-10">
+
+                            <img src="imgs/elct/access/access-4.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Handset</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/access-4.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-11">
+
+                            <img src="imgs/elct/access/access-1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Handset</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/access-1.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dt-12">
+
+                            <img src="imgs/elct/access/head-1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Handset</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/head-1.jpg" width="150" height="120""> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <!--firsr-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmobone">
+
+                            <img src="imgs/mob/1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Mobiles</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmobtwo">
+
+                            <img src="imgs/mob/2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Mobiles</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cam-2.png" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmobthree">
+
+                            <img src="imgs/mob/3.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Mobiles</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-12.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmobfour">
+
+                            <img src="imgs/mob/4.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Mobiles</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-10.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <!--firsr-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtdeskone">
+
+                            <img src="imgs/desk/1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Desktops</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtdesktwo">
+
+                            <img src="imgs/desk/2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Desktops</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cam-2.png" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtdeskthree">
+
+                            <img src="imgs/desk/3.png" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Desktops</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-12.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtdeskfour">
+
+                            <img src="imgs/desk/4.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Desktops</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-10.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+
+
+            </div>
+            <div class="tab-pane fade" id="pills-profile4" role="tabpanel" aria-labelledby="pills-profile-tab4">
+                <!--firsr-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtlapone">
+
+                            <img src="imgs/lap/1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Laptop</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtlaptwo">
+
+                            <img src="imgs/lap/2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Laptop</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cam-2.png" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtlapthree">
+
+                            <img src="imgs/lap/3.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Laptop</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-12.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtlapfour">
+
+                            <img src="imgs/lap/4.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Laptop</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-10.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+            </div>
+            <div class="tab-pane fade" id="pills-profile5" role="tabpanel" aria-labelledby="pills-profile-tab5">
+                <!--firsr-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmonone">
+
+                            <img src="imgs/monitor/1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmontwo">
+
+                            <img src="imgs/monitor/2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cam-2.png" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmonthree">
+
+                            <img src="imgs/monitor/3.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-12.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtmonfour">
+
+                            <img src="imgs/monitor/4.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Monitors</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                                <div>
+                                    <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+              
+                                        Cameras</span>
+                                </div>
+                                <div class="p-price d-flex flex-row"> <span>$</span>
+                                    <h5 class="price-card font-weight-bold">299</h1>
+                                </div>
+                                <div class="heart"> <i class="far fa-heart"></i> </div>
+                            </div>
+                            <div class="text-center p-image"> <img src="imgs/elct/cams/cam-10.jpg" width="150" height="120"> 
+              
+              </div>
+                            <div class="p-about mt-1">
+                                <p>Discover the features of the device and learn more by clicking on the image 
+              
+              </p>
+                            </div>
+                            <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                              <button class="btn btn-success mr-1 ">View</button> 
+                              <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                            </div>
+                        </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+            </div>
+            <div class="tab-pane fade" id="pills-profile6" role="tabpanel" aria-labelledby="pills-profile-tab6">
+                <!--third-product-row-->
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtaccone">
+
+                            <img src="imgs/access/1.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/head-2.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtacctwo">
+
+                            <img src="imgs/access/2.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/access-4.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtaccthree">
+
+                            <img src="imgs/access/3.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/access-1.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtaccfour">
+
+                            <img src="imgs/access/4.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/head-1.jpg" width="150" height="120""> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+
+                <!--second-row-->
+
+                <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtaccfive">
+
+                            <img src="imgs/access/5.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/head-2.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtaccsex">
+
+                            <img src="imgs/access/6.jpg" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/access-4.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtaccseven">
+
+                            <img src="imgs/access/7.png" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/access-1.jpg" width="150" height="120"> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-1">
+
+                        <div class="card-new-prod p-2 shadow-lg border card-shop-hov" style="overflow: hidden;"
+                            data-name="dtacceight">
+
+                            <img src="imgs/access/8.webp" class="card-img  w-100" height="300px" alt="...">
+                            <h3><span class="badge badge-warning rounded card-badg-shop ">50% Offer</span></h3>
+
+                            <div class="card-shop-lay-1">
+                                <i class="far fa-heart icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-2">
+                                <i class="fas fa-paperclip icon"></i>
+                            </div>
+
+                            <div class="card-shop-lay-3">
+                                <i class="fab fa-angellist icon"></i>
+                            </div>
+
+
+                        </div>
+                        <!--card-img-->
+                        <h5 class="text-center mt-1">Accessories</h5>
+                        <div class="text-center">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="text-center font-weight-bold mt-1">$ 140</p>
+                        <!--card-p i -->
+
+
+                        <!-- <div class="p-info px-3 py-3">
+                        <div>
+                            <h5 class="mb-0">Sony Collection</h5> <span>Professional 
+      
+      Headphones</span>
+                        </div>
+                        <div class="p-price d-flex flex-row"> <span>$</span>
+                            <h5 class="price-card font-weight-bold">299</h1>
+                        </div>
+                        <div class="heart"> <i class="far fa-heart"></i> </div>
+                    </div>
+                    <div class="text-center p-image"> <img src="imgs/elct/access/head-1.jpg" width="150" height="120""> 
+      
+      </div>
+                    <div class="p-about mt-1">
+                        <p>Discover the features of the device and learn more by clicking on the image 
+      
+      </p>
+                    </div>
+                    <div class="btn-new-prod d-flex flex-row gap-3 px-3"> 
+                      <button class="btn btn-success mr-1 ">View</button> 
+                      <button class="btn btn-outline-warning text-dark">Buy Now</button> 
+                    </div>
+                </div> -->
+                        <!--card-->
+
+                    </div>
+                    <!--col-4-->
+                </div>
+                <!--row-->
+            </div>
+        </div>
+
+
+
+
+        <!--preview---------------------------------->
+
+        <div class="products-preview">
+            <div class="preview" data-target="dtmobone">
+                <i class="fas fa-times"></i>
+                <img src="imgs/mob/1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtmobtwo">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/mob/2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtmobthree">
+                <i class="fas fa-times"></i>
+                <img src="imgs/mob/3.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtmobfour">
+                <i class="fas fa-times"></i>
+                <img src="imgs/mob/4.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+
+            <!--Desktop Preview====dtdeskone====-->
+
+            <div class="preview" data-target="dtdeskone">
+                <i class="fas fa-times"></i>
+                <img src="imgs/desk/1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtdesktwo">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/desk/2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtdeskthree">
+                <i class="fas fa-times"></i>
+                <img src="imgs/desk/3.png" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtdeskfour">
+                <i class="fas fa-times"></i>
+                <img src="imgs/desk/4.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <!--===start--Lap preview========dtlapfour==========-->
+
+            <div class="preview" data-target="dtlapone">
+                <i class="fas fa-times"></i>
+                <img src="imgs/lap/1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtlaptwo">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/lap/2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtlapthree">
+                <i class="fas fa-times"></i>
+                <img src="imgs/lap/3.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtlapfour">
+                <i class="fas fa-times"></i>
+                <img src="imgs/lap/4.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+
+            <!--===start-- monitor=============dtmonone========-->
+
+
+            <div class="preview" data-target="dtmonone">
+                <i class="fas fa-times"></i>
+                <img src="imgs/monitor/1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtmontwo">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/monitor/2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtmonthree">
+                <i class="fas fa-times"></i>
+                <img src="imgs/monitor/3.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtmonfour">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/monitor/4.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+
+            <!--===start--Accessories two rows===============-->
+
+
+
+            <div class="preview" data-target="dtaccone">
+                <i class="fas fa-times"></i>
+                <img src="imgs/access/1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtacctwo">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/access/2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtaccthree">
+                <i class="fas fa-times"></i>
+                <img src="imgs/access/3.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtaccfour">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/access/4.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+
+
+            <div class="preview" data-target="dtaccfive">
+                <i class="fas fa-times"></i>
+                <img src="imgs/access/5.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtaccsex">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/access/6.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtaccseven">
+                <i class="fas fa-times"></i>
+                <img src="imgs/access/7.png" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dtacceight">
+                <i class=" fas fa-times"></i>
+                <img src="imgs/access/8.webp" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <!--===start--All Preview==================-->
+
+
+            <div class="preview" data-target="dt-1">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/cams/1.png" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-2">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/cam-2.png" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-3">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/cams/cam-12.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-4">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/cams/cam-10.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-5">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/monitor/mon-1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-6">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/monitor/mon-2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-7">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/monitor/mon-3.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-8">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/monitor/mon-5.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-9">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/access/head-2.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-10">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/access/access-4.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-11">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/access/access-1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+            <div class="preview" data-target="dt-12">
+                <i class="fas fa-times"></i>
+                <img src="imgs/elct/access/head-1.jpg" class="w-100" alt="">
+                <h3>Electronics</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                <div class="price">$2.00</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--container-->
+
+    <!--=========new collection==========-->
+    <div class="jumbotron jumbotron-fluid py-2 bg-light">
+        <div class="container">
+            <div class="row" data-aos="zoom-in-up">
+                <div class="col-12">
+                    <h2 class="text-danger text-center coll-h">Our Powerful Collection</h2>
+                </div>
+            </div>
+            <div class="row" data-aos="zoom-in-up">
+                <div class="col-12">
+                    <h1 class="text-center mt-3" style="font-family: 'Pushster', cursive;">new</h1>
+                </div>
+            </div>
+
+            <div class="row" data-aos="zoom-in-up">
+                <div class="col-12 text-center mt-3">
+                    <a href="shop.html" class="h5 link-coll">SHOP NOW</a>
+                </div>
+            </div>
+
+            <!--picture-->
+            <div class="row mt-3">
+                <div class="col-12 col-md-2"></div>
+
+                <div class="col-12 col-md-8">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false"
+                        data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/elct/6-video-camera-png-image.png" height="500" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/elct/cams/1.png" height="500" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/elct/cam-2.png" height="500" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--=========footer=============-->
+
+    <div class="jumbotron foot-bg my-0 p-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="container " id="foot-about">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="foot-img"><img src="imgs/elec-logo.png" width="250" height="150" alt=""></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias fuga et temporibus labore
+                        aspernatur.</p>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-2">
+                    <h4 class="my-3 fot-heads">Quick Links</h4>
+                    <ul class="list-unstyled text-left pl-5">
+                        <li class="p-2"><a href="#">Home</a></li>
+                        <li class="p-2"><a href="#">Products</a></li>
+                        <li class="p-2"><a href="#">About</a></li>
+                        <li class="p-2"><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 ">
+                    <h4 class="my-3 fot-heads"> Accounts</h4>
+                    <ul class="list-unstyled text-left pl-4">
+                        <li class="p-2"><a href="#">Myaccount</a></li>
+                        <li class="p-2"><a href="#">Orders Tracking</a></li>
+                        <li class="p-2"><a href="#">Checkout</a></li>
+                        <li class="p-2"><a href="">Cart</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="my-3 fot-heads">News Letters</h4>
+
+                    <div class="input-group rounded-pill bg-white">
+
+                        <input type="text" class="form-control fott-frm rounded-pill" placeholder="Enter your email"
+                            aria-label="Input group example" aria-describedby="btnGroupAddon">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text bg-danger text-white rounded-pill" id="btnGroupAddon">Subscripe
+                                Now</div>
+                        </div>
+                    </div>
+
+                    <div class="foot-med mt-3">
+                        <a href="#"><i class="fab fa-facebook fa-2x mr-2"></i></a>
+                        <a href="#"><i class="fab fa-facebook-messenger fa-2x mr-2"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp fa-2x mr-2"></i></a>
+                        <a href="#"><i class="fab fa-google-plus fa-2x mr-2"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x mr-2"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <h5 class="text-center">Copyright &copy All right reserved 2022</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--================scripts==========================-->
+    <!--bootstrap scripts popper jquery  bootstrap-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!--======aos script========================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--==my own script===========================-->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

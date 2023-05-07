@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store - Shop Page</title>
+  <link rel="shortcut icon" href="imgs/online-store-shopping-cart.png">
+
+  <!--====fontawesome==============-->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!--===Aos======================-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!--====bootstrap================-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!--====css style================-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--====top links=====-->
+  <div class="container my-2" data-aos="zoom-in-up">
+    <div class="row">
+      <div class="col-12">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html" class="text-dark"><i class="fas fa-home mr-2"></i>Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-shopping-cart mr-2"></i>Shop</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!--===main cols=====================-->
+
+  <div class="container">
+    <div class="row">
+      <div class="shop-lists col-12 col-md-3" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+
+        <div class="row">
+          <div class="col-12">
+
+            <div class="accordion shadow" id="accordionExample" data-aos="zoom-in-up">
+
+              <div class="card">
+                <div class="card-header bg-info" id="headingOne">
+
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left font-weight-bold" style="color: black;"
+                      type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Cateogries
+                    </button>
+                  </h2>
+
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-parent="#accordionExample">
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><a href="#">Cameras</a></li>
+                      <li class="list-group-item"><a href="#">Monitors</a></li>
+                      <li class="list-group-item"><a href="#">Handset</a></li>
+                      <li class="list-group-item"><a href="#">Laptop</a></li>
+                      <li class="list-group-item"><a href="#">Accessories</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+        <!--row-->
+
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="accordion" id="accordionExample2" data-aos="zoom-in-up">
+
+              <div class="card">
+                <div class="card-header bg-info" id="headingTwo">
+
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left font-weight-bold" style="color: black;"
+                      type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      shop by price
+                    </button>
+                  </h2>
+
+                </div>
+
+                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
+                  data-parent="#accordionExample2">
+                  <div class="card-body">
+
+
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <p class="text-danger font-weight-bold mt-1">Price $15 - $150</p>
+
+
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!--row-->
+
+        <div class="row mt-3">
+          <div class="col-12">
+
+            <div class="accordion" id="accordionExample3" data-aos="zoom-in-up">
+
+              <div class="card">
+                <div class="card-header bg-info" id="heading3">
+
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left font-weight-bold" style="color: black;"
+                      type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      shop by Size
+                    </button>
+                  </h2>
+
+                </div>
+
+                <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#accordionExample3">
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush font-weight-normal">
+                      <li class="list-group-item">
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-1">
+                          <label for="ch-1">XXS</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-2">
+                          <label for="ch-2">XSS</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-3">
+                          <label for="ch-3">XS</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-4">
+                          <label for="ch-4">XS-S</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-5">
+                          <label for="ch-5">S</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-6">
+                          <label for="ch-6">M-L</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-7">
+                          <label for="ch-7">L</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-size" id="ch-8">
+                          <label for="ch-8">XL</label>
+                        </div>
+
+                      </li>
+                    </ul>
+
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+        <!--row-->
+
+        <div class="row my-3">
+          <div class="col-12">
+
+            <div class="accordion" id="accordionExample4" data-aos="zoom-in-up">
+
+              <div class="card">
+                <div class="card-header bg-info" id="heading4">
+
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left font-weight-bold" style="color: black;"
+                      type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      shop by Size
+                    </button>
+                  </h2>
+
+                </div>
+
+                <div id="collapse4" class="collapse show" aria-labelledby="heading4" data-parent="#accordionExample4">
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-1">
+                          <label for="coh-1">white</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-2">
+                          <label for="coh-2">Black</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-3">
+                          <label for="coh-3">orange</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-4">
+                          <label for="coh-4">Yellow</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-5">
+                          <label for="coh-5">Black</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-6">
+                          <label for="coh-6">Green</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-7">
+                          <label for="coh-7">Gray</label>
+                        </div>
+                        <div>
+                          <input type="checkbox" name="check-color" id="coh-8">
+                          <label for="coh-8">Red</label>
+                        </div>
+
+                      </li>
+                    </ul>
+
+
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!--row-->
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <!--products==============-->
+      <div class="col-12 col-md-9" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="row my-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional
+
+                    Cameras</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/cams/1.png" width="150" height="120">
+              </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+
+          </div>
+
+          <!--col-->
+
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Cameras</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/cam-2.png" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+          </div>
+          <!--col-->
+
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Cameras</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/cams/cam-12.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+          </div>
+          <!--col-->
+
+
+        </div>
+        <!--first-row-->
+
+        <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Cameras</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/cams/cam-10.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+          </div>
+          <!--col-->
+
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Monitors</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-1.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+
+          </div>
+          <!--col-->
+
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Monitors</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-2.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+
+          </div>
+          <!--col-->
+
+
+        </div>
+        <!--second-row-->
+
+        <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Monitors</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-3.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+
+          </div>
+          <!--col-->
+
+          <div class="col-12 col-lg-4">
+
+            <!--card-->
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Monitors</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/monitor/mon-5.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+
+          </div>
+          <!--col-->
+
+          <div class="col-12 col-lg-4">
+
+            <div class="card-new-prod p-2 shadow-lg border">
+              <div class="p-info px-3 py-3">
+                <div>
+                  <h5 class="mb-0">Sony Collection</h5> <span>Professional Headphones</span>
+                </div>
+                <div class="p-price d-flex flex-row"> <span>$</span>
+                  <h5 class="price-card font-weight-bold">299</h1>
+                </div>
+                <div class="heart"> <i class="far fa-heart"></i> </div>
+              </div>
+              <div class="text-center p-image"> <img src="imgs/elct/access/head-2.jpg" width="150" height="120"> </div>
+              <div class="p-about mt-1">
+                <p>Discover the features of the device and learn more by clicking on the image </p>
+              </div>
+              <div class="btn-new-prod d-flex flex-row gap-3 px-3">
+                <a href="product-details.html" class="btn btn-success mr-1">View</a>
+                <button class="btn btn-outline-warning text-dark">Buy Now</button>
+              </div>
+            </div>
+            <!--card-->
+
+          </div>
+          <!--col-->
+
+
+        </div>
+        <!--third-row-->
+
+
+
+
+        <!--pagenation ==========================================================================================1 2 3 4-->
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-12 col-md-6">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link rounded-circle mx-1 hov-num" href="#">1</a></li>
+                <li class="page-item"><a class="page-link rounded-circle mx-1" href="#">2</a></li>
+                <li class="page-item"><a class="page-link rounded-circle mx-1" href="#">3</a></li>
+                <li class="page-item"><a class="page-link rounded-circle mx-1" href="#">4</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!--end pagenation-->
+
+
+      </div>
+      <!--second -col-->
+    </div>
+    <!--main-row-->
+
+  </div>
+  <!--container-->
+
+  <!--=========footer============================================================================================-->
+
+  <div class="jumbotron foot-bg my-0 p-3 " data-aos="zoom-in">
+    <div class="container " id="foot-about">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="foot-img"><img src="imgs/elec-logo.png" width="250" height="150" alt=""></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias fuga et temporibus labore
+            aspernatur.</p>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-2">
+          <h4 class="my-3 fot-heads">Quick Links</h4>
+          <ul class="list-unstyled text-left pl-5">
+            <li class="p-2"><a href="#">Home</a></li>
+            <li class="p-2"><a href="#">Products</a></li>
+            <li class="p-2"><a href="#">About</a></li>
+            <li class="p-2"><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <h4 class="my-3 fot-heads">Accounts</h4>
+          <ul class="list-unstyled text-left pl-4">
+            <li class="p-2"><a href="#">Myaccount</a></li>
+            <li class="p-2"><a href="#">Orders Tracking</a></li>
+            <li class="p-2"><a href="#">Checkout</a></li>
+            <li class="p-2"><a href="">Cart</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h4 class="my-3 fot-heads">News Letters</h4>
+
+          <div class="input-group mb-3 fot-mov">
+            <input type="text" class="form-control  rounded-pill" placeholder="E-mail" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <div class="input-group-append fot-mov-child">
+              <span class="btn rounded-pill bg-danger text-white input-group-text" id="basic-addon2">Supscripe
+                Now</span>
+            </div>
+          </div>
+
+          <div class="foot-med mt-3">
+            <a href="#"><i class="fab fa-facebook fa-2x mr-2"></i></a>
+            <a href="#"><i class="fab fa-facebook-messenger fa-2x mr-2"></i></a>
+            <a href="#"><i class="fab fa-whatsapp fa-2x mr-2"></i></a>
+            <a href="#"><i class="fab fa-google-plus fa-2x mr-2"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x mr-2"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-center">Copyright &copy All right reserved 2022</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--================scripts==========================-->
+  <!--bootstrap scripts popper jquery  bootstrap-->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!--======aos script========================-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--==my own script===========================-->
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

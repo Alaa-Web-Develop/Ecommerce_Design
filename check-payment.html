@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store-payment page</title>
+  <link rel="shortcut icon" href="imgs/online-store-shopping-cart.png">
+
+  <!--====fontawesome==============-->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!--===Aos======================-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!--====bootstrap================-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!--====css style================-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--navbar======================================-->
+  <div class="container-fluid px-5 mb-1 shadow-lg sticky-top" id="scr-link"
+    style="height:100px;background: rgb(131,58,180);background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.36738445378151263) 50%, rgba(252,176,69,1) 100%);">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="imgs/elec-logo.png" class="" width="150" height="100" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-align-right" style="font-size: 25px;"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav m-auto shadow-lg p-1">
+          <li class="nav-item mx-1 bg-dark rounded hov-nav">
+            <a class="nav-link text-white font-weight-bold  a-hov" href="index.html">Home </a>
+
+          </li>
+          <li class="nav-item mx-1 ">
+            <a class="nav-link text-dark font-weight-bold a-hov" href="shop.html">SHOPPING</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link text-dark font-weight-bold a-hov" href="product-details.html">PRODUCT
+              DETAILS</a>
+          </li>
+          <li class="nav-item mx-1 dr-menu-link">
+            <a class="nav-link text-dark font-weight-bold a-hov " href="#">
+              CATEOGRIES
+              <ul class="dr-menu">
+                <li><a href="shop.html">Mobiles</a></li>
+                <li><a href="shop.html">Cameras</a></li>
+                <li><a href="shop.html">Laptop</a></li>
+                <li><a href="shop.html">Monitors</a></li>
+              </ul>
+
+            </a>
+          </li>
+
+          <li class="nav-item mx-1">
+            <a class="nav-link text-dark font-weight-bold a-hov" href="#foot-about">ABOUT US</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav shadow-lg rounded p-1">
+          <li class="nav-item mx-sm-3 mx-lg-0 ">
+            <a class="nav-link  text-dark font-weight-bold a-hov" href="#">Login/</a>
+
+          </li>
+          <li class="nav-item mx-sm-3 mx-lg-0 ">
+            <a class="nav-link  text-dark font-weight-bold a-hov" href="#">Register</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav mr-1 p-1 ">
+          <li class="nav-item mx-sm-3 mx-lg-0">
+            <a class="nav-link " href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li class="nav-item mx-sm-3 mx-lg-0">
+            <a class="nav-link" href="#">
+              <span data-cart-items="2">
+                <i class="far fa-heart"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item mx-sm-3 mx-lg-0">
+            <a class="nav-link" href="shopping-cart.html">
+              <span data-cart-items="2">
+                <i class="fas fa-cart-plus"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+  <!--container-->
+
+  <!--====top links=====-->
+  <div class="container my-2">
+    <div class="row">
+      <div class="col-12">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-2"></i>Home</a></li>
+            <li class="breadcrumb-item"><a href="shop.html"><i class="fas fa-shopping-cart mr-2"></i>Shopping</a></li>
+            <li class="breadcrumb-item"><a href="product-details.html"><i class="fas fa-shopping-cart mr-2"></i>Products
+                Details</a></li>
+            <li class="breadcrumb-item"><a href="shopping-cart.html"><i class="fas fa-shopping-cart mr-2"></i>My
+                shopping cart</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-info-circle mr-2"></i>Checkout
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!--form and order-summary-->
+
+  <div class="container mt-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+    <div class="row">
+      <div class="col-12 col-md-7">
+        <h5 class="shadow text-center p-2"><i class="fas fa-ambulance mr-2 text-danger"></i> Getting your Order</h5>
+        <hr>
+        <h5>Shipping information......</h5>
+
+        <!--==form==-->
+        <form class="p-2 border rounded shadow bg-info text-white">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail5">First name</label>
+              <input type="text" class="form-control" id="inputEmail5" placeholder="write your first name...">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword6">Last name</label>
+              <input type="text" class="form-control" id="inputPassword6" placeholder="write your last name...">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>cairo</option>
+                <option>alex</option>
+                <option>Giza</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+
+
+
+          <div class="form-row mt-4">
+            <div class="form-group col-md-6">
+              <fieldset>
+                <legend>Payment Method :</legend>
+                <div class="form-check border">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                    checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    <i class="fab fa-cc-visa text-warning mr-2"></i> Credit card
+                  </label>
+                </div>
+                <div class="form-check border mt-1">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    <i class="fab fa-cc-amazon-pay text-warning mr-2"></i>Paypal
+                  </label>
+                </div>
+              </fieldset>
+
+
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-warning font-weight-bold">Confirm payment details..</button>
+        </form>
+
+        <!-- <div class="row justify-content-center mt-3">
+                    <button type="submit" class="btn btn-primary">Confirm Payment information</button>
+                  </div> -->
+
+      </div>
+      <!--col details persolnal-->
+
+      <!--=====payment========================-->
+
+      <div class="col-12 col-md-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <h5 class="shadow mt-1 mt-md-0 p-2">Order Summary..</h5>
+        <hr>
+        <div class="card shadow">
+          <h5 class="px-3 text-danger">Handset..</h5>
+          <div class="row p-3 justify-content-between">
+
+            <img src="imgs/elct/access/access-1.jpg" width="100" height="100" alt="">
+            <div>
+              <p>Sony sound-cor</p>
+              <p>High Quality SQ</p>
+              <p>Touch control..</p>
+            </div>
+            <div>
+              <p class="text-danger">Price: 200 EGP</p>
+              <p>Quantity:2</p>
+              <p class="text-success">Shipping Free</p>
+            </div>
+          </div>
+          <!--row-->
+          <hr>
+
+          <h5 class="px-3 text-danger">Monitor..</h5>
+          <div class="row p-3 justify-content-between">
+
+            <img src="imgs/elct/monitor/mon-3.jpg" width="100" height="100" alt="">
+            <div>
+              <p>Toshiba sound-cor</p>
+              <p>High Quality HD</p>
+              <p>Touch control..</p>
+            </div>
+            <div>
+              <p class="text-danger">Price: 28,000 EGP</p>
+              <p>Quantity:3</p>
+              <p class="text-success">Shipping Free</p>
+            </div>
+          </div>
+          <!--row-->
+
+          <hr>
+
+          <h5 class="px-3 text-danger">Handset..</h5>
+          <div class="row p-3 justify-content-between">
+
+            <img src="imgs/elct/access/access-4.jpg" width="100" height="100" alt="">
+            <div>
+              <p>Sony sound-cor</p>
+              <p>High Quality SQ</p>
+              <p>Touch control..</p>
+            </div>
+            <div>
+              <p class="text-danger">Price: 250 EGP</p>
+              <p>Quantity:2</p>
+              <p class="text-success">Shipping 30 EGP</p>
+            </div>
+          </div>
+          <!--row-->
+
+          <hr>
+          <p class="p-2 text-danger font-weight-bold">Total Price: <span class="text-success ">28,450 EGP</span></p>
+
+        </div>
+        <!--card-->
+
+
+      </div>
+      <!--main row-->
+    </div>
+    <!--row-->
+  </div>
+  <!--container-->
+
+  <!--===========footer=====================-->
+
+  <div class="jumbotron jumbotron-fluid foot-bg my-0 mt-2 p-3" data-aos="fade-down" data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div class="container" id="foot-about">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="foot-img"><img src="imgs/elec-logo.png" width="250" height="150" alt=""></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias fuga et temporibus labore
+            aspernatur.</p>
+        </div>
+        <!--col-->
+
+
+        <div class="col-12 col-md-6 col-lg-2">
+          <h4 class="my-3 fot-heads">Quick Links</h4>
+          <ul class="list-unstyled text-left pl-5">
+            <li class="p-2"><a href="#">Home</a></li>
+            <li class="p-2"><a href="#">Products</a></li>
+            <li class="p-2"><a href="#">About</a></li>
+            <li class="p-2"><a href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-2 ">
+          <h4 class="my-3 fot-heads"> Accounts</h4>
+          <ul class="list-unstyled text-left pl-4">
+            <li class="p-2"><a href="#">Myaccount</a></li>
+            <li class="p-2"><a href="#">Orders Tracking</a></li>
+            <li class="p-2"><a href="#">Checkout</a></li>
+            <li class="p-2"><a href="">Cart</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <h4 class="my-3 fot-heads">News Letters</h4>
+
+          <div class="input-group rounded-pill bg-white">
+
+            <input type="text" class="form-control fott-frm rounded-pill" placeholder="Enter your email"
+              aria-label="Input group example" aria-describedby="btnGroupAddon">
+            <div class="input-group-prepend">
+              <div class="input-group-text bg-danger text-white rounded-pill" id="btnGroupAddon">Subscripe
+                Now</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="foot-med mt-3">
+          <a href="#"><i class="fab fa-facebook fa-2x mr-2"></i></a>
+          <a href="#"><i class="fab fa-facebook-messenger fa-2x mr-2"></i></a>
+          <a href="#"><i class="fab fa-whatsapp fa-2x mr-2"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x mr-2"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x mr-2"></i></a>
+        </div>
+      </div>
+      <!--row-->
+
+    </div>
+    <!--container-->
+    <hr>
+    <div class="row">
+      <div class="col-12">
+        <h5 class="text-center">Copyright &copy All right reserved 2022</h5>
+      </div>
+    </div>
+  </div>
+  <!--jumbotron-->
+
+
+
+
+
+
+  <!--================scripts==========================-->
+  <!--bootstrap scripts popper jquery  bootstrap-->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!--======aos script========================-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--==my own script===========================-->
+
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
